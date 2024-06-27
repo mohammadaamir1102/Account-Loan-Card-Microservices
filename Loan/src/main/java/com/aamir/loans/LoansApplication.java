@@ -31,7 +31,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 		),
 		externalDocs = @ExternalDocumentation(
 				description =  "Khan Loan microservice REST API Documentation",
-				url = "http://localhost:8080/swagger-ui.html"
+				url = "http://localhost:8090/swagger-ui.html"
 		)
 )
 public class LoansApplication {
