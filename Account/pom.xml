@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aamir</groupId>
-	<artifactId>Account</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<artifactId>account</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>Account</name>
+	<name>account</name>
 	<description>MS for Account</description>
 	<url/>
 	<licenses>
