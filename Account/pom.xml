@@ -93,7 +93,21 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.1</version>
+				<configuration>
+					<to>
+						<image>codewithaamir/${project.artifactId}:v2</image>
+					</to>
+				</configuration>
+			</plugin>
+
 		</plugins>
+
+
 	</build>
 
 </project>

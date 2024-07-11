@@ -100,7 +100,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>codewithaamir/${project.artifactId}:v1</image>
+						<image>codewithaamir/${project.artifactId}:v2</image>
 					</to>
 				</configuration>
 			</plugin>

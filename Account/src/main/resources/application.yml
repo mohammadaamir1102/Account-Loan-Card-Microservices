@@ -12,3 +12,15 @@ spring:
 
 server:
   port: 8080
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to KhanBank accounts related local APIs "
+  contactDetails:
+    name: "Aamir Khan - Developer"
+    email: "aamir@khanbank.com"
+  onCallSupport:
+    - (333) 777-8765
+    - (333) 888-6543
