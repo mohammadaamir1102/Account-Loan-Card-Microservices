@@ -1,5 +1,9 @@
 spring:
   datasource:
+  application:
+    name: "card"
+  profiles:
+    active: "prod"
     url: jdbc:h2:mem:testdb
     username: sa
     password: ''
@@ -10,24 +14,7 @@ spring:
       ddl-auto: update
     show-sql: true
   config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
-  profiles:
-    active:
-      - "qa"
+    import: "optional:configserver:http://localhost:8071/" # here optional if any reason account service is not able to connect but microservices will start.
+
 server:
   port: 9000
-
-
-build:
-  version: "3.0"
-
-cards:
-  message: "Welcome to KhanBank Card related local APIs "
-  contactDetails:
-    name: "Aaquib Khan - Developer"
-    email: "aaquib@khanbank.com"
-  onCallSupport:
-    - (333) 777-8765
-    - (333) 888-6543

@@ -1,12 +1,7 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
-
 build:
   version: "1.0"
 
-loans:
+accounts:
   message: "Welcome to KhanBank accounts related local APIs "
   contactDetails:
     name: "Aamir Khan - Product owner"

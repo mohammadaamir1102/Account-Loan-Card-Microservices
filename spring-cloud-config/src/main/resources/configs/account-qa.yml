@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to KhanBank accounts related local APIs "
+  contactDetails:
+    name: "Aasim Khan - QA Lead"
+    email: "aasim@khanbank.com"
+  onCallSupport:
+    - (333) 777-8765
+    - (333) 888-6543
