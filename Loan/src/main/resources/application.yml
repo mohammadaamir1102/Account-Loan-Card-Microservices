@@ -15,5 +15,11 @@ spring:
     show-sql: true
   config:
     import: "optional:configserver:http://localhost:8071/" # here optional if any reason account service is not able to connect but microservices will start.
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 server:
   port: 8090

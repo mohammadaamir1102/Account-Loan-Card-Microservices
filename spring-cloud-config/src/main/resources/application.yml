@@ -2,11 +2,27 @@ spring:
   application:
     name: "configserver"
   profiles:
-     active: native
+#     active: native
+     active: git
   cloud:
     config:
       server:
-       native:
-        search-locations: "classpath:/configs"
+#       native:
+#        search-locations: "classpath:/configs"
+       git:
+         uri: "https://github.com/mohammadaamir1102/account-card-load-cloud-config"
+         default-label: main # here main is git branch
+         timeout: 5 # config server wait for 5 second only for need to connect with GIT. If not connect then throw and exception
+         clone-on-start: true # cloning the git repo during the startup the application
+         force-pull: true # All updated changes will pulled from the main branch
 server:
   port: 8071
+
+encrypt:
+  key: "ksjdfasdu98758934jklsdjq-6318903417534klkjkldu935094853" # This is unique random unique key for encrypt and decrypt by cipher
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # All actuator end-point access by this as well if any changes in all yml file so without redeployed the application we can use /refersh end point of actuator
