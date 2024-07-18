@@ -15,8 +15,14 @@ spring:
          timeout: 5 # config server wait for 5 second only for need to connect with GIT. If not connect then throw and exception
          clone-on-start: true # cloning the git repo during the startup the application
          force-pull: true # All updated changes will pulled from the main branch
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
 server:
   port: 8071
+
 
 encrypt:
   key: "ksjdfasdu98758934jklsdjq-6318903417534klkjkldu935094853" # This is unique random unique key for encrypt and decrypt by cipher

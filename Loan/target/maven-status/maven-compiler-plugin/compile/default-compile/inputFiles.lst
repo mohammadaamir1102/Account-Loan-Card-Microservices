@@ -1,4 +1,5 @@
 D:\AccountLoanCardsSpringBootMicroservices\Loan\src\main\java\com\aamir\loans\audit\AuditAwareImpl.java
+D:\AccountLoanCardsSpringBootMicroservices\Loan\src\main\java\com\aamir\loans\config\LoansContactInfoConfig.java
 D:\AccountLoanCardsSpringBootMicroservices\Loan\src\main\java\com\aamir\loans\constants\LoansConstants.java
 D:\AccountLoanCardsSpringBootMicroservices\Loan\src\main\java\com\aamir\loans\controller\LoansController.java
 D:\AccountLoanCardsSpringBootMicroservices\Loan\src\main\java\com\aamir\loans\dto\ErrorResponseDto.java

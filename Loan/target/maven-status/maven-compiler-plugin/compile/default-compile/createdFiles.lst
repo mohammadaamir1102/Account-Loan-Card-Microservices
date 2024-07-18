@@ -1,6 +1,7 @@
 com\aamir\loans\controller\LoansController.class
 com\aamir\loans\dto\ErrorResponseDto.class
 com\aamir\loans\mapper\LoansMapper.class
+com\aamir\loans\config\LoansContactInfoConfig.class
 com\aamir\loans\constants\LoansConstants.class
 com\aamir\loans\entity\BaseEntity.class
 com\aamir\loans\service\impl\LoansServiceImpl.class
