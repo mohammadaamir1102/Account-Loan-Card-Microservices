@@ -111,7 +111,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>codewithaamir/${project.artifactId}:v2</image>
+						<image>codewithaamir/${project.artifactId}:v6</image>
 					</to>
 				</configuration>
 			</plugin>
